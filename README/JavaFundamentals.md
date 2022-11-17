@@ -3,9 +3,9 @@
 ## Agenda
 
 Getting started with Java
-* Instaling Java
+* Installing Java
 * Configure IDE
-* Creating first java program
+* Creating First java program
 
 Learning about different Data Types
 * Primitive
