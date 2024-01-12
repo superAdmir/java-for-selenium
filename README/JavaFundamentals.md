@@ -68,29 +68,33 @@ Types of Operators
 
 * Arithmetic operators are used to perform addition, subtraction, multiplication, and division. They are used to perform basic mathematical operations.
 * Relational operators returns Boolean/Logical result.
-  == (equal to)
-  != (not equal to)
-  > (greater than)
-  < (less than)
-  >= (greater than or equal to)
-  <= (less than or equal to)
+   1. == (equal to)
+   2. != (not equal to)
+   3. > (greater than)
+   4. < (less than)
+   5. >= (greater than or equal to)
+   6. <= (less than or equal to)
+   
 * Logical operators are used to determine the logic between variables or values
-  && - logical AND - Returns true if both statements are true
-  || - logical OR  - Returns true if one of the statements is true
-   ! - logical NOT - Reverse the result, returns false if the result is true
+
+  1. && - logical AND - Returns true if both statements are true
+  2. || - logical OR  - Returns true if one of the statements is true
+  3. ! - logical NOT - Reverse the result, returns false if the result is true
+  
 * Assignment operators are used to assign values to variables
-  Operator  Example  Same As	
-  =	      x = 5	   x = 5	
-  +=	      x += 3	   x = x + 3	
-  -=	      x -= 3	   x = x - 3	
-  *=	      x *= 3	   x = x * 3	
-  /=	      x /= 3	   x = x / 3	
-  %=	      x %= 3	   x = x % 3	
-  &=	      x &= 3	   x = x & 3	
-  |=	      x |= 3	   x = x | 3	
-  ^=	      x ^= 3   x = x ^ 3	
-  >>=	  x >>= 3  x = x >> 3	
-  <<=	  x <<= 3  x = x << 3
+
+ *Operator  Example  Same As	
+  1. =	      x = 5	   x = 5	
+  2. +=	      x += 3	   x = x + 3	
+  3. -=	      x -= 3	   x = x - 3	
+  4. *=	      x *= 3	   x = x * 3	
+  5. /=	      x /= 3	   x = x / 3	
+  6. %=	      x %= 3	   x = x % 3	
+  7. &=	      x &= 3	   x = x & 3	
+  8. |=	      x |= 3	   x = x | 3	
+  9. ^=	      x ^= 3   x = x ^ 3	
+  10. >>=	  x >>= 3  x = x >> 3	
+  11. <<=	  x <<= 3  x = x << 3
 
 ## Control flow statements
 
@@ -99,9 +103,9 @@ What is Control flow statements?
  * Control flow statements, would change or break the flow of execution by implementing decision making, looping, and branching your program to execute particular blocks of code     based on the conditions.
 * Control flow statements in Java allow you to run or skip blocks of code when special conditions are met. 
 * There are 3 types of control flow statements supported by the Java programming language.
-  Decision-making: if-then, if-then-else, if else if, nested if else and switch
-  Looping: for, while, do-while
-  Branching: break, continue, return
+  1. Decision-making: if-then, if-then-else, if else if, nested if else and switch
+  1. Looping: for, while, do-while
+  3. Branching: break, continue, return
   
  * Decision-making:
    1. The “if” statement in Java works exactly like in most programming languages. With the help of “if” you can choose to execute a specific block of code when a predefined  condition is met.
