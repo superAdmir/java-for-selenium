@@ -4,7 +4,7 @@
  * First Java Program
  */
 
-package javapackage; //Package declaration - Second section
+package fundamentals; //Package declaration - Second section
 
 //import java.io.Console; //Import section - Third section
 //import java.lang.*;

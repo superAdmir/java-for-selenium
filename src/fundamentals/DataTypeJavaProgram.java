@@ -1,7 +1,7 @@
 /* <Admir Satara>
  * Datatype Java Program
  */
-package javapackage;
+package fundamentals;
 
 public class DataTypeJavaProgram {
 

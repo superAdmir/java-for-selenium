@@ -1,12 +1,11 @@
 /* <Admir Satara>
  * Operators Java Program
  */
-package javapackage;
+package fundamentals;
 
 public class OperatorsJavaProgram {
 
 	public static void main(String[] args) {
-
 		aritmeticOperator();
 		relationalOperator();
 		logicalOperator();

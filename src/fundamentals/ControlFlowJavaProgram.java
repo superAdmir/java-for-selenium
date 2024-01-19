@@ -1,7 +1,7 @@
 /* <Admir Satara>
  * Control Flow Java Program
  */
-package javapackage;
+package fundamentals;
 
 public class ControlFlowJavaProgram {
 

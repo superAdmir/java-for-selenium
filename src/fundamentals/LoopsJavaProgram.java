@@ -1,4 +1,4 @@
-package javapackage;
+package fundamentals;
 
 public class LoopsJavaProgram {
 
