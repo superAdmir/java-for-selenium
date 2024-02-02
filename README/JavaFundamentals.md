@@ -5,18 +5,18 @@
 Getting started with Java
 * Installing Java
 * Configure IDE
-* Creating First java program
+* Creating First Java program
 
 Understanding Different Types of variables
 * Local
 * Instance
 * Static
 
-Learning about different Data Types
+Understanding different Data Types
 * Primitive
 * Non-Primitive
 
-Learning about different Operators
+Understanding different Operators
 * Arithmetic
 * Relational
 * Logical
@@ -38,6 +38,13 @@ Learning about Loops
 Learning about Modifiers
 * Access
 * Non-Access
+
+Learning about String Class and Built in Methods in Java
+* How to create string object?
+* Built in Methods
+* Different String methods
+
+Why String is Immutable in Java?
 
 
 ## Variable
@@ -146,7 +153,69 @@ What are modifiers?
 Types of Modifiers
 
 * Access modifiers: default, Private, Protected, Public 
-* Non-Access modifiers: for classes (final, abstract), for methods or atributes (final, static, transient, synchronized, volatile)
+* Non-Access modifiers: for classes (final, abstract), for methods or attributes (final, static, transient, synchronized, volatile)
 
+## String Class and Built in Methods
+
+What is a string?
+
+* In Java, string represents sequence of char values. An array of characters works same as Java string. For example:
+
+ ```bash
+ char[] h={'H','E','L','L','O'};
+ String s=new String(h);
+ String s=“HELLO";
+```
+* Java String class provides a lot of methods to perform operations on string
+
+How to create string object?
+
+ * The java.lang.String class is used to create a string object.
+ * There are two ways to create String object:
+ - By string literal - Java String literal is created by using double quotes. For Example:
+ 
+  ```bash
+String s1=“Selenium";
+```
+ - By new keyword - String s=new String(“Selenium");
+ 
+ Built in method
+
+ * Java has a library of classes and methods organized in packages
+
+ ```bash
+Import java.io.console
+Import java.io.*
+```
+ * In order to use built in methods we need to import packages or classes
+ * Java.lang package is automatically imported in every java Built in methods categories
+   - String methods
+   - Array methods
+   - Number methods
+   - Character methods
+   
+  Different String methods
+
+ ```bash
+compareTo - The Java String compareTo() method is used for comparing two strings lexicographically.
+boolean equals() - The java string equals() method compares the two given strings based on the content of the string (case sensitive)
+String concat() – concat two strings
+boolean equalsIgnoreCase() - The java string equals() method compares the two given strings based on the content of the string (not casesensitive)
+char charAt() – index position - The java string charAt() method returns a char value at the given index number.
+boolean contains()
+toUpperCase() – convert to upper case
+toLowerCase() – convert to lower case
+trim() – remove spaces from both sides of string
+substring() --  returns part of string
+boolean endsWith()
+boolean startWith() – ends with specified suffix or not
+int length()
+replace()
+```
+
+## Why String is Immutable in Java?
+
+* In java, string objects are immutable. Immutable simply means unmodified or unchangeable.
+* Once string object is created its data or state can't be changed but a new string object is created.
    
 
