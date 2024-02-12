@@ -1,3 +1,7 @@
+/* <Admir Satara>
+ * String Java Program
+ */
+
 package fundamentals;
 
 public class StringJavaProgram {
@@ -5,7 +9,7 @@ public class StringJavaProgram {
 	public static void main(String[] args) {
 		stringLiteral();
 		newKeyword();
-		compareYo();
+		compareTo();
 		booleanEquals();
 		booleanEqualsIgnoreCase();
 		concat();
@@ -23,7 +27,6 @@ public class StringJavaProgram {
 		converStringToIntValueOfMethod();
 		converIntToStringValueOfMethod();
 		converIntToStringMethod();
-
 	}
 
 	public static void stringLiteral() {
@@ -36,7 +39,7 @@ public class StringJavaProgram {
 		System.out.println("New Keyword method: " + s);
 	}
 
-	public static void compareYo() {
+	public static void compareTo() {
 		// A to Z = 65 to 90
 		// a to z = 97 to 122
 		// 0 to 9 = 48 to 57
@@ -145,5 +148,4 @@ public class StringJavaProgram {
 		String str = Integer.toString(i);
 		System.out.println("Convert Int to String method - String value is: " + str);
 	}
-
 }

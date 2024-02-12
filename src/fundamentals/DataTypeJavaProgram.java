@@ -6,7 +6,6 @@ package fundamentals;
 public class DataTypeJavaProgram {
 
 	public static void main(String[] args) {
-
 		boolean b1 = true;
 		boolean b2 = false;
 		boolean b3 = (10 > 2);
@@ -48,7 +47,5 @@ public class DataTypeJavaProgram {
 
 		double j1 = (double) 100; // cast from integer number (100) to double number (100.0) == upcasting
 		System.out.println("The value of j1: " + j1);
-
 	}
-
 }

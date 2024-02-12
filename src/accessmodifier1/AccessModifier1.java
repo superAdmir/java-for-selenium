@@ -10,7 +10,6 @@ public class AccessModifier1 {
 		method3();
 		// Public access modifier from the same class
 		method4();
-
 	}
 
 	static void method1() {

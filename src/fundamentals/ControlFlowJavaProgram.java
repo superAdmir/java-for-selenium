@@ -1,6 +1,7 @@
 /* <Admir Satara>
  * Control Flow Java Program
  */
+
 package fundamentals;
 
 public class ControlFlowJavaProgram {
@@ -11,13 +12,10 @@ public class ControlFlowJavaProgram {
 		ifElseIfStatement();
 		nestedifElseStatement();
 		switchStatement();
-
 	}
 
 	public static void ifStatement() {
-
 		int n = 10;
-
 		if (n > 0) {
 			System.out.println("If: my number is positive.");
 		}
@@ -25,9 +23,7 @@ public class ControlFlowJavaProgram {
 	}
 
 	public static void ifElseStatement() {
-
 		int n = 10;
-
 		if (n > 0) {
 			System.out.println("If else: my number is positive.");
 		} else {
@@ -37,9 +33,7 @@ public class ControlFlowJavaProgram {
 	}
 
 	public static void ifElseIfStatement() {
-
 		int n = 0;
-
 		if (n > 0) {
 			System.out.println("If else if: my number is positive.");
 		} else if (n < 0) {
@@ -51,9 +45,7 @@ public class ControlFlowJavaProgram {
 	}
 
 	public static void nestedifElseStatement() {
-
 		int n1 = 3, n2 = 4, n3 = 10, largestNumber;
-
 		if (n1 > n2) {
 			if (n1 > n3) {
 				largestNumber = n1;
@@ -71,7 +63,6 @@ public class ControlFlowJavaProgram {
 	}
 
 	public static void switchStatement() {
-
 		int week = 5;
 		String day;
 
@@ -103,6 +94,5 @@ public class ControlFlowJavaProgram {
 			break;
 		}
 		System.out.println("Switch: day is: " + day);
-
 	}
 }

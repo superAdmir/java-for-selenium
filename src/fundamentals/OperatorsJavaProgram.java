@@ -1,6 +1,7 @@
 /* <Admir Satara>
  * Operators Java Program
  */
+
 package fundamentals;
 
 public class OperatorsJavaProgram {
@@ -16,7 +17,6 @@ public class OperatorsJavaProgram {
 
 	public static void aritmeticOperator() {
 		int a = 5, b = 10;
-
 		int c = a + b;
 		System.out.println("-----------------Aritmetic operator----------------");
 		System.out.println("Addition is: " + c);

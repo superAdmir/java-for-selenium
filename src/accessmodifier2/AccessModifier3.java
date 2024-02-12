@@ -51,5 +51,4 @@ public class AccessModifier3 extends AccessModifier1 {
 		// AccessModifier1 obj = new AccessModifier1();
 		// obj.method4();
 	}
-
 }
