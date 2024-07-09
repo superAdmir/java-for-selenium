@@ -21,6 +21,12 @@ Inheritance in Java
 * Various Scenarios to create Parent/Child objects
 * Usage of inheritance in Selenium
 
+Polymorphism in Java
+* What is Polymorphism?
+* Method overloading
+* Method overriding
+* Types of Polymorphism
+
 ## Class and Object in Java
 
 What is OOP?
@@ -147,3 +153,27 @@ Usage of inheritance in Selenium
 
 * We create a Base Class in the Framework to initialize WebDriver interface, WebDriver waits, Property files, Excels, etc., in the Base Class.
 * We extend the Base Class in other classes such as Tests and Utility Class.
+
+## Polymorphism in Java
+
+What is Polymorphism?
+
+* Polymorphism in Java is a concept by which we can perform a single action in different ways.
+* Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+* There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+* Polymorphism can be achieved by method overloading and method overriding
+
+
+Method overloading
+
+* Method Overloading is a feature that allows a class to have more than one method having the same name, if their argument lists are different.
+* Signature should be different: number of parameters, data type of parameters, sequence of data type of parameters
+
+Method overriding
+
+* Method Overloading is a feature that allows a class to have more than one method having the same name, if their argument lists are different.
+* Signature should be different: number of parameters, data type of parameters, sequence of data type of parameters
+
+Types of Polymorphism
+* Static Polymorphism (Static Binding - Early binding) is also known as compile time binding or compile time polymorphism -- Method Overloading in an example -- when type of object is determined at compiled time it is known as Static binding.
+* Dynamic Polymorphism (Dynamic Binding - Late binding) is also known as runtime time binding or run time polymorphism -- example method overriding -- When type of object is determined at run time, it is known as dynamic binding.
