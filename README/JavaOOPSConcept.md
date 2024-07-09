@@ -14,6 +14,13 @@ Methods in Java
 * Built in methods
 * User defined methods
 
+Inheritance in Java
+* What is Inheritance?
+* Why we use Inheritance?
+* Different terms associated with Inheritance
+* Various Scenarios to create Parent/Child objects
+* Usage of inheritance in Selenium
+
 ## Class and Object in Java
 
 What is OOP?
@@ -100,3 +107,43 @@ User defined methods
 
 * Different Method types: Method without returning any values, Method with returning values, Method using passing parameters
 * Different ways to call Methods: Using Objects, Without Using object, Call external methods (from external class)
+
+## Inheritance in Java
+
+What is Inheritance?
+
+* Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+* The process by which one class acquires the properties(data members) and functionalities(methods) of another class is called inheritance.
+* Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another.
+
+Why we use Inheritance?
+
+* Code re-usability : The biggest advantage of Inheritance is that the code that is already present in base class need not be rewritten in the child class.
+* Avoid duplication in the code
+* Method overriding
+
+Different terms associated with Inheritance
+
+* Class: A class is a group of objects which have common properties. It is a template or blueprint from which objects are created.
+* Sub Class/Child Class: Subclass is a class which inherits the other class. It is also called a derived class, extended class, or child class.
+* Super Class/Parent Class: Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
+* Reusability: As the name specifies, reusability is a mechanism which facilitates you to reuse the fields and methods of the existing class when you create a new    class. You can use the same fields and methods already defined in the previous class. There are two ways we can do code reuse either by the implementation of inheritance (IS-A relationship), or object composition (HAS-A relationship)
+
+```bash
+class Subclass-name extends Superclass-name
+	{
+		//data members and methods
+      }
+```
+
+Various Scenarios to create Parent/Child objects
+
+* Sub(Child) Class reference and Sub(Child) Object: Allow you to access all the methods and data members of super class and sub class.
+* Super(Parent) Class reference and Sub(Child) Class Object: Allow you to access all the methods and data members of Super class only.
+* Super(Parent) Class reference and Super(Parent) Class Object: Allow you to access all methods and data members of super class only.
+* Sub(Child) Class reference and Super(Parent) Class object: Child cannot hold parent object
+
+Usage of inheritance in Selenium
+
+* We create a Base Class in the Framework to initialize WebDriver interface, WebDriver waits, Property files, Excels, etc., in the Base Class.
+* We extend the Base Class in other classes such as Tests and Utility Class.
