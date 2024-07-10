@@ -32,12 +32,19 @@ Abstraction and Interface in Java
 * Abstract class
 * What is an Interface?
 * Multiple inheritance in Java by interface
-* Abstract Class Vs Interface
+* Abstract Class vs Interface
 
 Encapsulation in Java
 * What is Encapsulation?
 * How to Achieve?
 * Benefits
+
+Constructors in Java
+* What is Constructor?
+* Basic rules
+* Types of Constructors
+* Constructor overloading
+* Constructor vs Method
 
 ## Class and Object in Java
 
@@ -229,11 +236,11 @@ Abstract Class VS Interface
 
  ```bash
  Abstract class                                                            Interface      
-    An abstract class can have both abstract and non=abstract methods      The interface can have only abstract method
+    An abstract class can have both abstract and non abstract methods      The interface can have only abstract method
     It does not support multiple inheritances                              It support multiple inheritances
     It can provide the implementation of the interface                     It can not provide the implementation of the interface
     An abstract class can have protected and abstract public methods       An interface can have only public abstract method
-    An abstract class can have final, static or static final variable      The interface can only have a public static final variable.
+    An abstract class can have final, static or static final variable      The interface can only have a public static final variable
     with any access specified
 
  ```
@@ -253,3 +260,46 @@ Benefits:
 
 * The fields of a class can be made read-only (class which has only getter method) or write-only (class which has only setter method) .
 * A class can have total control over what is stored in its fields.
+
+## Constructors in Java
+
+What is Constructor?
+
+* It is called constructor because it constructs the value at the time of object creation.
+* Block of code similar to method.
+* It is called when an object of class is created.
+* At the time of calling constructor, memory for the object is allocated in the memory.
+* It is used to initialize the object.
+* Java compiler created the default constructor if your class doesn't have any constructor.
+
+Basic rules
+
+* Constructor name must be the same as its class name
+* Must have no return type
+* A Java constructor cannot be abstract, static, final, and synchronized
+
+Types of Constructors
+
+* Default or no arguments – Provides default values
+* Parameterized constructor
+
+Types of Constructors
+
+* Default or no arguments – Provides default values
+* Parameterized constructor
+
+Constructor Overloading
+
+* Having more than one constructor with different parameter lists.
+
+Constructor vs Method
+
+ ```bash
+ Java Constructor                                                          Java Method      
+ It is used to initialize the state of an object                           It is used to expose the behavior of an object
+ A constructor must not have a return type                                 A method must not have a return type
+ Invoked implicitly                                                        Invoked explicitly
+ The Java compiler provides a default constructor if you don't             The method is not provided by the compiler in any case.
+ have any constructor in a class
+ The constructor name must be same as its class name                       Not same as its class name
+ ```
