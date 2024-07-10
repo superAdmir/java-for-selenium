@@ -27,6 +27,13 @@ Polymorphism in Java
 * Method overriding
 * Types of Polymorphism
 
+Abstraction and Interface in Java
+* What is Abstraction?
+* Abstract class
+* What is an Interface?
+* Multiple inheritance in Java by interface
+* Abstract Class Vs Interface
+
 ## Class and Object in Java
 
 What is OOP?
@@ -177,3 +184,51 @@ Method overriding
 Types of Polymorphism
 * Static Polymorphism (Static Binding - Early binding) is also known as compile time binding or compile time polymorphism -- Method Overloading in an example -- when type of object is determined at compiled time it is known as Static binding.
 * Dynamic Polymorphism (Dynamic Binding - Late binding) is also known as runtime time binding or run time polymorphism -- example method overriding -- When type of object is determined at run time, it is known as dynamic binding.
+
+## Abstraction in Java
+
+What is Abstraction?
+
+* Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+* In Abstraction only the essential details are displayed to the user. The trivial or the non-essentials units are not displayed to the user. Ex: A car is viewed as a car rather than its individual.
+* There are two ways to achieve abstraction in Java: Abstract class (0 to 100%) and Interface (100%)
+
+Abstract Class
+
+* A class which is declared as abstract is known as an abstract class. It can have abstract and non-abstract methods. It needs to be extended and its method implemented.
+* An abstract class must be declared with an abstract keyword.
+* Abstract Class can have abstract and non-abstract methods.
+* Abstract class cannot be instantiated.
+* Abstract class can have constructors final and static methods also.
+* Abstract class can have final methods
+* If there is an abstract method in a class, that class must be abstract.
+
+What is an Interface?
+
+* An interface in java is a blueprint of a class. It has static constants and abstract methods.
+* There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
+* It cannot be instantiated just like the abstract class.
+* In interface we can have default and static methods.
+* In interface we can have private methods.
+
+Why we use Interface?
+* It is used to achieve abstraction.
+* By interface, we can support the functionality of multiple inheritance.
+
+Multiple inheritance in Java by interface:
+
+* If a class implements multiple interfaces, or an interface extends multiple interfaces, it is known as multiple inheritance.
+* Multiple inheritance is not supported through class in java, but it is possible by an interface.
+
+Abstract Class VS Interface
+
+ ```bash
+ Abstract class                                                            Interface      
+    An abstract class can have both abstract and non=abstract methods      The interface can have only abstract method
+    It does not support multiple inheritances                              It support multiple inheritances
+    It can provide the implementation of the interface                     It can not provide the implementation of the interface
+    An abstract class can have protected and abstract public methods       An interface can have only public abstract method
+    An abstract class can have final, static or static final variable      The interface can only have a public static final variable.
+    with any access specified
+
+ ```
