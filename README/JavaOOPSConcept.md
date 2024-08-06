@@ -46,6 +46,12 @@ Constructors in Java
 * Constructor overloading
 * Constructor vs Method
 
+Static Keyword in Java
+* What is static in Java?
+* Static variable
+* Static method
+* Static block
+
 ## Class and Object in Java
 
 What is OOP?
@@ -303,3 +309,36 @@ Constructor vs Method
  have any constructor in a class
  The constructor name must be same as its class name                       Not same as its class name
  ```
+## Static Keyword in Java
+
+What is static in Java?
+
+* The static keyword in Java is used for memory management
+* The static keyword belongs to the class than an instance of the class.
+* Static can be : Variable, Method, Block , Nested class
+
+Static variable
+
+* Static variable is used to fulfil the common requirement. For Example company name of employees, college name of students etc. Name of the college is common for all students
+* Static variable gets memory only once in the class area at the time of class loading.
+
+Static method
+
+* A static method belongs to the class rather than the object of a class.
+* A static method can be invoked without the need for creating an instance of a class.
+* A static method can access static data member and can change the value of it.
+* Restrictions: The static method can not use non static data member or call non-static method directly, This and super cannot be used in static context.
+
+Why main method is static?
+
+* It is because the object is not required to call a static method. If it were a non-static method, JVM creates an object first then call main() method that will lead the problem of extra memory allocation.
+
+Difference between static and final keyword
+
+* Static keyword always fixed the memory that means that will be located only once in the program where as final keyword always fixed the value that means it makes variable values constant
+
+Java static Block
+
+* Is used to initialize the static data member.
+* It is executed before the main method at the time of class loading.
+
