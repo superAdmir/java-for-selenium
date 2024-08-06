@@ -56,6 +56,9 @@ This Keyword in Java
 * What is this keyword in Java?
 * This keyword usage
 
+Super Keyword in Java
+* Three important usage of super keyword
+
 ## Class and Object in Java
 
 What is OOP?
@@ -358,4 +361,12 @@ This keyword usage:
 * this can be passed as an argument in the method call
 * this can be used to return the current class instance from the method
 * this can be passed as an argument in the constructor call
+
+## Super Keyword in Java
+
+Three important usage of super keyword
+* Use of super with variables: We can use super keyword to access the data member or field of parent class. It is used if parent class and child class have same fields.
+* Use of super with methods: It should be used if subclass contains the same method as parent class.
+* Use of super with constructors: super is used to invoke parent class constructor.
+
 
