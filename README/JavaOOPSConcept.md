@@ -52,6 +52,10 @@ Static Keyword in Java
 * Static method
 * Static block
 
+This Keyword in Java
+* What is this keyword in Java?
+* This keyword usage
+
 ## Class and Object in Java
 
 What is OOP?
@@ -341,4 +345,17 @@ Java static Block
 
 * Is used to initialize the static data member.
 * It is executed before the main method at the time of class loading.
+
+## This Keyword in Java
+
+What is this in Java?
+* This is a reference variable that refers to the current object.
+
+This keyword usage:
+* to refer current class instance variable
+* to invoke current class method
+* to invoke current class constructor
+* this can be passed as an argument in the method call
+* this can be used to return the current class instance from the method
+* this can be passed as an argument in the constructor call
 
