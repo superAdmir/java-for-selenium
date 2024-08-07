@@ -84,7 +84,7 @@ What is an Operator?
 * An operator in Java is a symbol that is used to perform operations. For example:
 
 ```bash
-   +, -, *, / etc.
+   +, -, *, / etc
 ```
 
 Types of Operators
