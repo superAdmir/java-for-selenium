@@ -9,14 +9,21 @@ Introduction to Collection Framework in Java
 * Collection interface
 
 ArrayList in Java
-* Lost Interface
+* List Interface
 * ArrayList class in Java
 * Collection interface
+
+LinkedList in Java
+* What is LinkedList
+* Properties
+* How to create
+* Methods
 
 
 ## Introduction to Collection Framework in Java
 
 What is a Java Collection?
+
 * A Collection is a group of individual objects represented as a single unit
 * Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion
 * The Java Collections Framework is a collection of interfaces and classes which helps in storing and processing the data efficiently
@@ -60,7 +67,8 @@ ArrayList Class in Java
 * Dynamic resizing
 * Non synchronized
 * Duplicates allowed – We can add duplicate elements in arraylist. It is not possible in sets.
-* How to create:
+
+How to create:
 
 ```bash
   ArrayList<String> alist = new ArrayList<String>();
@@ -76,5 +84,30 @@ Methods
 * contains(Object o) 
 * clear()
 
+## LinkedList in Java
 
+What is LinkedList in Java?
 
+* Java LinkedList class is doubly-linked list implementation of the List and Deque interfaces.
+
+Properties
+* Permits all elements including duplicates and NULL
+* LinkedList maintains the insertion order of the elements
+* It is not synchronized
+* The manipulation is fast because no shifting is required
+
+How to create:
+
+```bash
+  LinkedList<String> linkedList = new LinkedList<>();
+```
+Methods
+* boolean add(Object item) 
+* void add(int index, Object item) 
+* boolean addAll(Collection c) 
+* void addFirst(Object item) 
+* void addLast(Object item) 
+* void clear(), Object clone() 
+* Object getFirst() 
+* Object getLast() 
+* Object poll() 
