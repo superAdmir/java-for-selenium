@@ -19,6 +19,11 @@ LinkedList in Java
 * How to create
 * Methods
 
+Vector and Stack Class in Java
+* Properties
+* How to create
+* Methods
+
 
 ## Introduction to Collection Framework in Java
 
@@ -111,3 +116,22 @@ Methods
 * Object getFirst() 
 * Object getLast() 
 * Object poll() 
+
+## ArrayList in Java
+
+Properties
+
+* Vector uses a dynamic array to store the data elements. It is similar to ArrayList. However, It is synchronized. it is synchronized and due to which it gives poor performance in searching, adding, delete and update of its elements.
+
+How to create:
+
+```bash
+  Vector<String> v = new Vector<String>();
+```
+Methods
+* addElement(Object element)
+* int capacity()
+* int size()
+* firstElement()
+* lastElement()
+* get(int index)
