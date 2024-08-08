@@ -24,7 +24,7 @@ Vector and Stack Class in Java
 * How to create
 * Methods
 
-Queue and Set Interface
+Queue and Set Interface in Java
 * What is Queue interface?
 * What is PriorityQueue Class?
 * What is Deque Interface?
@@ -33,6 +33,13 @@ Queue and Set Interface
 * What is HashSet Class?
 * What is LinkedHashSet Class?
 * What is TreeSet Class?
+
+Map interface in Java
+* What is Map interface?
+* What is HashMap Class?
+* What is LinkedHashMap Class?
+* What is TreeMap Class?
+* What is HashTable Class?
 
 
 ## Introduction to Collection Framework in Java
@@ -146,7 +153,7 @@ Methods
 * lastElement()
 * get(int index)
 
-## Queue and Set Interface
+## Queue and Set Interface in Java
 
 What is Queue interface?
 
@@ -212,3 +219,44 @@ What is LinkedHashSet Class?
 ```
 
 * Methods: boolean add(E e) , void clear(), Object clone(), boolean contains(Object o), boolean isEmpty(), int size(), boolean remove(Object o), Object first(), Object last(). 
+
+## Queue and Set Interface in Java
+
+What is Map interface?
+
+* Properties: A map contains values on the basis of key, i.e. key and value pair. Each key and value pair is known as an entry. A Map contains unique keys.
+* A Map doesn't allow duplicate keys, but you can have duplicate values. HashMap and LinkedHashMap allow null keys and values, but TreeMap doesn't allow any null key or value.
+* A Map can't be traversed, so you need to convert it into Set using keySet() or entrySet() method.
+
+What is HashMap Class?
+
+Properties: 
+* Java HashMap class contains values based on the key.
+* Java HashMap class contains only unique keys.
+* Java HashMap class may have one null key and multiple null values.
+* Java HashMap class is non synchronized.
+* Java HashMap class maintains no order.
+
+* Methods: void clear(), Object clone(), boolean containsKey(Object key), boolean containsValue(Object Value) , Object get(Object key), boolean isEmpty(), Set keySet(), Object put(Key k, Value v), int size(), Collection values(), Value remove(Object key)
+
+What is TreeMap Class?
+
+Properties: 
+* Java TreeMap contains values based on the key. It implements the NavigableMap interface and extends AbstractMap class.
+* Java TreeMap contains only unique elements.
+* Java TreeMap cannot have a null key but can have multiple null values.
+* Java TreeMap is non synchronized.
+Java TreeMap maintains ascending order.
+
+* Methods: void clear(), void size(), void isEmpty(), boolean containsKey(Object key), boolean containsValue(Object key), Object get(Object key), Object firstKey(), Object lastKey()
+
+What is HashTable Class?
+
+Properties: 
+* Hashtable internally contains buckets in which it stores the key/value pairs. The Hashtable uses the key’s hashcode to determine to which bucket the key/value pair should map.
+* A Hashtable is an array of a list. Each list is known as a bucket. The position of the bucket is identified by calling the hashcode() method. A Hashtable contains values based on the key.
+* Java Hashtable class contains unique elements.
+* Java Hashtable class doesn't allow null key or value.
+* Java Hashtable class is synchronized.
+
+* Methods: void clear(), void size(), void isEmpty(), boolean containsKey(Object key), boolean containsValue(Object key), Object get(Object key)

@@ -1,4 +1,4 @@
-package hashset;
+package hashinterface;
 
 import java.util.ArrayList;
 import java.util.TreeSet;

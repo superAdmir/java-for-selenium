@@ -1,13 +1,14 @@
-package hashset;
+package hashinterface;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Set;
 
-public class HashSetDemo {
+public class SetInterfaceDemo {
 
 	public static void main(String[] args) {
 
-		HashSet<Integer> hs = new HashSet<>();
+		Set<Integer> hs = new HashSet<>();
 		hs.add(12);
 		hs.add(43);
 		hs.add(4);

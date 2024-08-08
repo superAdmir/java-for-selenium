@@ -1,16 +1,15 @@
-package hashset;
+package hashinterface;
 
 import java.util.ArrayList;
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
-public class LinkedHashSetDemo {
+public class HashSetDemo {
 
 	public static void main(String[] args) {
 
-		LinkedHashSet<Integer> hs = new LinkedHashSet<>();
+		HashSet<Integer> hs = new HashSet<>();
 		hs.add(12);
 		hs.add(43);
-		hs.add(30);
 		hs.add(4);
 		hs.add(54);
 		hs.add(54); // Does not allow duplicates
