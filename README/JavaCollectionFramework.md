@@ -14,7 +14,7 @@ ArrayList in Java
 * Collection interface
 
 LinkedList in Java
-* What is LinkedList
+* What is LinkedList?
 * Properties
 * How to create
 * Methods
@@ -23,6 +23,16 @@ Vector and Stack Class in Java
 * Properties
 * How to create
 * Methods
+
+Queue and Set Interface
+* What is Queue interface?
+* What is PriorityQueue Class?
+* What is Deque Interface?
+* What is ArrayDeque Class?
+* What is Set Interface?
+* What is HashSet Class?
+* What is LinkedHashSet Class?
+* What is TreeSet Class?
 
 
 ## Introduction to Collection Framework in Java
@@ -76,7 +86,7 @@ ArrayList Class in Java
 How to create:
 
 ```bash
-  ArrayList<String> alist = new ArrayList<String>();
+  	ArrayList<String> alist = new ArrayList<String>();
 ```
 Methods 
 * add()
@@ -104,7 +114,7 @@ Properties
 How to create:
 
 ```bash
-  LinkedList<String> linkedList = new LinkedList<>();
+  	LinkedList<String> linkedList = new LinkedList<>();
 ```
 Methods
 * boolean add(Object item) 
@@ -126,7 +136,7 @@ Properties
 How to create:
 
 ```bash
-  Vector<String> v = new Vector<String>();
+	Vector<String> v = new Vector<String>();
 ```
 Methods
 * addElement(Object element)
@@ -135,3 +145,70 @@ Methods
 * firstElement()
 * lastElement()
 * get(int index)
+
+## Queue and Set Interface
+
+What is Queue interface?
+
+* Java Queue interface orders the element in FIFO(First In First Out) manner. In FIFO, first element is removed first and last element is removed at last.
+* How to create the objects?
+
+```bash
+	Queue<String> q1 = new PriorityQueue();
+  	Queue<String> q2 = new ArrayDeque();
+```
+
+What is PriorityQueue class?
+
+* Properties: It holds the elements or objects which are to be processed by their priorities. PriorityQueue doesn't allow null values to be stored in the queue.
+* Methods: boolean add(object), boolean offer(object), boolean remove(object), Object poll(), Object element() , Object peek(), void clear(), int size()
+
+What is DeQueue interface?
+
+* Deque interface extends the Queue interface. In Deque, we can remove and add the elements from both the side. Deque stands for a double-ended queue which enables us to perform the operations at both the 
+
+```bash
+	Deque d = new ArrayDeque()
+```
+
+What is ArrayDeQueue class?
+
+* ArrayDeque class implements the Deque interface. It facilitates us to use the Deque. Unlike queue, we can add or delete the elements from both the ends.
+* ArrayDeque is faster than ArrayList and Stack and has no capacity restrictions.
+
+What is Set interface?
+
+* Properties: Set Interface in Java is present in java.util package. It extends the Collection interface.It represents the unordered set of elements which doesn't allow us to store the duplicate items. 
+* We can store at most one null value in Set. Set is implemented by HashSet, LinkedHashSet, and TreeSet.
+
+```bash
+	Set<data-type> s1 = new HashSet<data-type>();  
+	Set<data-type> s2 = new LinkedHashSet<data-type>();  
+	Set<data-type> s3 = new TreeSet<data-type>(); 
+```
+What is LinkedHashSet Class?
+
+* Properties: This class implements the Set interface.
+* LinkedHashSet maintains insertion order,
+* LinkedHashSet doesn’t allow duplicates
+* LinkedHashSet allows null values however if you insert more than one nulls it would still return only one null value.
+* LinkedHashSet is non-synchronized.
+
+```bash
+	LinkedHashSet<String> set=new LinkedHashSet<String>(); 
+```
+* Methods: boolean add(E e) , void clear(), Object clone(), boolean contains(Object o), boolean isEmpty(), int size(), boolean remove(Object o), removeAll().
+
+What is LinkedHashSet Class?
+
+* Properties: This class implements the SortedSet interface.
+* The access and retrieval time of TreeSet is quite fast. The elements in TreeSet stored in ascending order.
+* TreeSet doesn’t allow duplicates
+* TreeSet doesn’t allows null values 
+* TreeSet is non-synchronized.
+
+```bash
+	TreeSet<String> tset = new TreeSet<String>();
+```
+
+* Methods: boolean add(E e) , void clear(), Object clone(), boolean contains(Object o), boolean isEmpty(), int size(), boolean remove(Object o), Object first(), Object last(). 

@@ -1,0 +1,32 @@
+package hashset;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+
+public class LinkedHashSetDemo {
+
+	public static void main(String[] args) {
+
+		LinkedHashSet<Integer> hs = new LinkedHashSet<>();
+		hs.add(12);
+		hs.add(43);
+		hs.add(30);
+		hs.add(4);
+		hs.add(54);
+		hs.add(54); // Does not allow duplicates
+		hs.add(null);
+		hs.add(null);
+
+		System.out.println("Hash list: " + hs);
+
+		System.out.println("For loop:");
+		for (Integer itr : hs) {
+			System.out.println(itr);
+		}
+
+		ArrayList<Integer> ar = new ArrayList<>(hs);
+		System.out.println("Getting particular element: " + ar.get(2));
+
+	}
+
+}
